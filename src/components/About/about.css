@@ -1,0 +1,28 @@
+.about {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .about {
+      width: 90vw;
+    }
+  }
+
+.about-name {
+
+}
+
+.about-p1 {
+
+}
+
+.about-p2 {
+
+}
