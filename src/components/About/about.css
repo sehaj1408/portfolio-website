@@ -1,24 +1,28 @@
 .about {
-  background-color: #ffffffde;
+  /* background-color: #4057a16e; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  width: 60vw;
-  height: 60vh;
+  height: 100vh;
+  width: 70vw;
+  margin: auto;
+  padding: 0px 10%;
+  text-align: left;
 }
 
 @media only screen and (max-width: 800px) {
   .about {
-    width: 90vw;
+    width: 80vw;
   }
 }
 
 .about-name {
-  
+  font-size: 4.5vw;
+  line-height: 10%;
 }
 
 .about-p1 {
-  padding: 0px 10%;
   line-height: 250%;
+  font-size: 1.4vw;
 }
