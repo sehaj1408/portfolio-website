@@ -1,28 +1,24 @@
 .about {
-    background-color: lightblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 60vw;
-    margin: auto;
-    margin-top: 5vw;
+  background-color: #ffffffde;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 60vh;
 }
 
 @media only screen and (max-width: 800px) {
-    .about {
-      width: 90vw;
-    }
+  .about {
+    width: 90vw;
   }
+}
 
 .about-name {
-
+  
 }
 
 .about-p1 {
-
-}
-
-.about-p2 {
-
+  padding: 0px 10%;
+  line-height: 250%;
 }
