@@ -1,0 +1,19 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.projects-button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightcyan;
+    width: 40vw;
+    height: 10vh;
+}
+
+.projects-button:hover {
+    background-color: lightblue;
+}
