@@ -20,6 +20,7 @@ export default function App() {
             adding rating/comments, and more.`,
             skills: `Javascript • REST API • Node.js • HTML • CSS • Express • 
             Firebase • Git • VS Code • Amazon EC2 • Postman`,
+            github: 'https://github.com/sehaj1408/se3316-sehaj1408-Hersh-SS-coopercunningham-lab4',
             id: 2
         },
         {
@@ -27,6 +28,7 @@ export default function App() {
             description: `Web app that allows users to search Pokémon by name or 
             number and displays matches and their details.`,
             skills: `Javascript • HTML • CSS • DOM • Git • VS Code • Amazon EC2`,
+            github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
             id: 3
         },
         {
@@ -35,6 +37,7 @@ export default function App() {
             queries like DDL, DML, and DQL to manage a 
             manufacturing management system.`,
             skills: `MySQL • MySQLWorkbench • Data modelling • Normalization • Git`,
+            github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
             id: 4
         }
     ]

@@ -16,6 +16,7 @@ export default function Projects(props) {
             >
                 <h3>{props.details.description}</h3>
                 <p>{props.details.skills}</p>
+                <a href={props.details.github}>{props.details.github && 'Github'}</a>
             </div>
         </div>
     )
