@@ -38,11 +38,15 @@ export default function App() {
 
     const [projectClicked, setProjectClicked] = React.useState(false);
 
+    function handleProjectDisplay() {
+        console.log('Hello');
+    }
+
     return (
         <div>
             <About />
-            <Projects details={capicDetails}/>
-            <Projects details={musicDetails}/>
+            <Projects details={capicDetails} handleClick={handleProjectDisplay}/>
+            <Projects details={musicDetails} handleClick={handleProjectDisplay}/>
         </div>
     )
 }
