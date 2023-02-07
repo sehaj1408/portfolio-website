@@ -6,7 +6,6 @@ export default function Projects(props) {
  
     return ( 
         <div className='projects-container'>
-            <h2 className='projects-title'>What I've worked on and my experiences</h2>
             <div className='projects' id='projects'>
                 <img 
                 src={require(`../../images/${imagePath}`)} 

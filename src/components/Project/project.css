@@ -1,12 +1,15 @@
+.projects-container {
+    margin-bottom: 80px;
+}
+
 .projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
 .projects-button {
-    margin: 5vh 0;
+    margin-top: 30px;
     border-radius: 50px;
     color: black;
     border-radius: 10px;
@@ -15,36 +18,22 @@
     background-color: white;
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
     height: 10vh;
-    width: 40vw;
+    width: 30vw;
+    margin-left: 50px;
 }
 
 .projects-button:hover {
     cursor: pointer;
 }
 
-.projects-container {
+.project-details {
+    width: 40vw;
     display: flex;
     flex-direction: column;
 }
 
-.projects-title {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 20px;
-    float: left;
-    background-color: white;
-    width: 40vw;
-    height: 7vh;
-    border-radius: 10px;
-}
-
-.project-details {
-    width: 40vw;
-}
-
 .projects-image {
-    width: 50vw;
+    width: 45vw;
 }
 
 .details-description {

@@ -1,4 +1,5 @@
 import React from 'react';
+import './app.css'
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Project from './components/Project/Project';
@@ -95,6 +96,7 @@ export default function App() {
         <div>
             <Navbar />
             <About />
+            <h2 className='projectsAndExperiences' id='projectsAndExperiences'>What I've worked on and my experiences</h2>
             {projectsElements}
             <Skills />
             <Education />

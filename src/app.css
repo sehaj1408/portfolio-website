@@ -1,0 +1,11 @@
+.projectsAndExperiences {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7vw;
+    margin-bottom: 10vh;
+    border-radius: 10px;
+    background-color: white;
+    width: 35vw;
+    height: 7vh;
+  }
