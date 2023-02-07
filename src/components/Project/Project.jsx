@@ -15,8 +15,15 @@ export default function Projects(props) {
             style={{display: props.showDetails ? 'block' : 'none'}}
             >
                 <h3>{props.details.description}</h3>
+
                 <p>{props.details.skills}</p>
-                <a href={props.details.github}>{props.details.github && 'Github'}</a>
+
+                <a 
+                href={props.details.github}
+                target='_blank'
+                >
+                {props.details.github && 'Github'}
+                </a>
             </div>
         </div>
     )

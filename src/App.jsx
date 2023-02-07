@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './components/About/About';
 import Project from './components/Project/Project';
+import Skills from './components/Skills/Skills';
 
 export default function App() {
     const projectsArray = [
@@ -86,6 +87,7 @@ export default function App() {
         <div>
             <About />
             {projectsElements}
+            <Skills />
         </div>
     )
 }
