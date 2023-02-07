@@ -3,7 +3,7 @@ import './education.css';
 
 export default function Education() {
     return (
-        <div>
+        <div className='education' id='education'>
             <h3>Education</h3>
             <p>B.E.Sc in Software Engineering | University of Western Ontario - London, ON	SEP 2020 - APR 2024</p>
             <p>University Clubs: Team Lead at Western Developers Society</p>

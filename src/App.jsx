@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Project from './components/Project/Project';
 import Skills from './components/Skills/Skills';
@@ -88,6 +89,7 @@ export default function App() {
 
     return (
         <div>
+            <Navbar />
             <About />
             {projectsElements}
             <Skills />

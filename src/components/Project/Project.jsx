@@ -3,7 +3,7 @@ import './project.css';
 
 export default function Projects(props) {
     return (
-        <div className='projects'>
+        <div className='projects' id='projects'>
             <button
             className='projects-button'
             onClick={() => props.handleClick(props.details.id)}
