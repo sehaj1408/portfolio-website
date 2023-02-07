@@ -2,6 +2,7 @@ import React from 'react';
 import About from './components/About/About';
 import Project from './components/Project/Project';
 import Skills from './components/Skills/Skills';
+import Education from './components/Education/Education';
 
 export default function App() {
     const projectsArray = [
@@ -88,6 +89,7 @@ export default function App() {
             <About />
             {projectsElements}
             <Skills />
+            <Education />
         </div>
     )
 }
