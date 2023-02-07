@@ -1,0 +1,35 @@
+.nav {
+    margin-bottom: -10vh;
+    margin-top: 3vh;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 6vw;
+}
+
+.nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin-right: 8vw;
+}
+
+.nav > ul > li {
+    padding: 0px 1vw;
+}
+
+.nav > ul > li > button {
+    font-size: 1.2vw;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    height: 5vh;
+}
+
+.nav > ul > li > button:hover {
+    border-radius: 15px;
+    color: #ba9935;
+    cursor: pointer;
+}

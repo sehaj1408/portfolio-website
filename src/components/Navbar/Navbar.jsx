@@ -14,19 +14,22 @@ export default function Navbar() {
         <nav className='nav'>
             <ul>
                 <li>
-                    <button onClick={() => scrollToComponent('about')}>About</button>
+                    <button onClick={() => scrollToComponent('about')}>ABOUT</button>
                 </li>
                 <li>
-                    <button onClick={() => scrollToComponent('projects')}>Projects/Experience</button>
+                    <button onClick={() => scrollToComponent('projects')}>PROJECTS / EXPERIENCE</button>
                 </li>
                 <li>
-                    <button onClick={() => scrollToComponent('skills')}>Skills</button>
+                    <button onClick={() => scrollToComponent('skills')}>SKILLS</button>
                 </li>
                 <li>
-                    <button onClick={() => scrollToComponent('education')}>Education</button>
+                    <button onClick={() => scrollToComponent('education')}>EDUCATION</button>
                 </li>
                 <li>
-                    <button onClick={() => scrollToComponent('contact')}>Contact</button>
+                    <button onClick={() => window.open('', '_blank')}>RESUME</button>
+                </li>
+                <li>
+                    <button onClick={() => scrollToComponent('contact')}>CONTACT</button>
                 </li>
             </ul>
         </nav>
