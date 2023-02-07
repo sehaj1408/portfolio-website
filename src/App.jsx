@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails';
 
 export default function App() {
     const capicDetails = {
@@ -38,8 +39,14 @@ export default function App() {
 
     const [projectClicked, setProjectClicked] = React.useState(false);
 
-    function handleProjectDisplay() {
-        console.log('Hello');
+    if (projectClicked) {
+        console.log('hello');
+    }
+
+    function handleProjectDisplay(projectDetails) {
+        setProjectClicked(prevState => {
+            return !prevState;
+        })
     }
 
     return (
