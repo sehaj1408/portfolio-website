@@ -13,7 +13,7 @@
     flex-direction: row;
     align-items: center;
     list-style: none;
-    margin-right: 8vw;
+    margin-right: 3vw;
 }
 
 .nav > ul > li {
@@ -21,13 +21,14 @@
 }
 
 .nav > ul > li > button {
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 500;
     border: none;
     background-color: transparent;
     height: 5vh;
     position: relative;
     transition: all 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 0.859);
 }
 
 .nav > ul > li > button:hover {

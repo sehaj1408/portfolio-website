@@ -7,6 +7,7 @@
   margin: auto;
   padding: 0px 10%;
   text-align: left;
+  animation: fadeIn 2s;
 }
 
 @media only screen and (max-width: 800px) {
@@ -16,11 +17,19 @@
 }
 
 .about-name {
-  font-size: 4.5vw;
+  color: rgba(0, 0, 0, 0.759);
+  font-size: 4vw;
   line-height: 10%;
 }
 
 .about-p1 {
+  color: rgba(0, 0, 0, 0.758);
+  font-weight: 400;
   line-height: 250%;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
