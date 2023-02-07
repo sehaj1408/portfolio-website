@@ -6,7 +6,7 @@ export default function Projects(props) {
         <div className='projects'>
             <button
             className='projects-button'
-            onClick={() => props.handleClick()}
+            onClick={() => props.handleClick(props.details)}
             >
                 {props.details.name}
             </button>
