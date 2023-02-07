@@ -16,6 +16,7 @@ export default function App() {
             for each seminar, as well as participate in real-time messaging.`,
             skills: `Swift • Xcode • REST API • Firebase • UIKit • 
             Storyboards • Spatial reasoning`,
+            image: 'capicImage.png',
             id: 1
         },
         {
@@ -26,6 +27,7 @@ export default function App() {
             skills: `Javascript • REST API • Node.js • HTML • CSS • Express • 
             Firebase • Git • VS Code • Amazon EC2 • Postman`,
             github: 'https://github.com/sehaj1408/se3316-sehaj1408-Hersh-SS-coopercunningham-lab4',
+            image: 'capicImage.png',
             id: 2
         },
         {
@@ -34,6 +36,7 @@ export default function App() {
             number and displays matches and their details.`,
             skills: `Javascript • HTML • CSS • DOM • Git • VS Code • Amazon EC2`,
             github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
+            image: 'capicImage.png',
             id: 3
         },
         {
@@ -43,6 +46,7 @@ export default function App() {
             manufacturing management system.`,
             skills: `MySQL • MySQLWorkbench • Data modelling • Normalization • Git`,
             github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
+            image: 'capicImage.png',
             id: 4
         }
     ]
