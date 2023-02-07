@@ -8,6 +8,8 @@
   padding: 0px 10%;
   text-align: left;
   animation: fadeIn 2s;
+  margin-top: -10vh;
+  margin-bottom: -7vh;
 }
 
 @media only screen and (max-width: 800px) {

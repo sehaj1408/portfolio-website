@@ -3,16 +3,58 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
 }
 
 .projects-button {
-    border: 1px solid black;
+    margin: 5vh 0;
+    border-radius: 50px;
+    color: black;
     border-radius: 10px;
-    width: 40vw;
+    border: none;
+    font-size: 1.1vw;
+    background-color: white;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
     height: 10vh;
+    width: 40vw;
 }
 
 .projects-button:hover {
-    background-color: lightblue;
+    cursor: pointer;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    float: left;
+    background-color: white;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+}
+
+.project-details {
+    width: 40vw;
+}
+
+.projects-image {
+    width: 50vw;
+}
+
+.details-description {
+
+}
+
+.details-skills {
+    
+}
+
+.details-github {
+    
 }
