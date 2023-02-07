@@ -11,8 +11,11 @@ export default function Projects(props) {
                 {props.details.name}
             </button>
 
-            <div>
-                {}
+            <div
+            style={{display: props.showDetails ? 'block' : 'none'}}
+            >
+                <h3>{props.details.description}</h3>
+                <p>{props.details.skills}</p>
             </div>
         </div>
     )
