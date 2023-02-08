@@ -3,13 +3,14 @@ import './project.css';
 
 export default function Projects(props) {
     const imagePath = props.details.image;
-
     let skillsArr = props.details.skills;
+    const details = props.details;
     
     return (
         <div className='projects-container'>
                 <img 
                 src={require(`../../images/${imagePath}`)} 
+                style={{width: details.width}}
                 alt="Image" 
                 className='projects-image'
                 />

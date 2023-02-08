@@ -12,41 +12,47 @@ export default function App() {
     const projectsArray = [
         {
             name: 'CapicConnect iOS App',
-            description: `iOS app personal project that allows users to view upcoming 
-            seminars and conferences, registered programs, speakers and details 
-            for each seminar, as well as participate in real-time messaging.`,
+            description: `A personal iOS app project that offers users the capability to view upcoming seminars and conferences, registered programs, and speaker information, as well as the ability to participate in real-time messaging.`,
             skills: ['Swift', 'Xcode', 'ReST API', 'Firebase', 'UIKit', 'Storyboards', 'Spatial reasoning'],
             image: 'capicImage.png',
+            width: '45vw',
             id: 1
         },
         {
             name: 'Music Web App',
-            description: `Web app that allows users to interact with music metadata 
-            by saving and editing playlists, searching tracks, creating an account, 
-            adding rating/comments, and more.`,
-            skills: ['Javascript', 'REST API', 'Node.js', 'HTML', 'CSS', 'Express', 'Firebase', 'Git', 'Amazon EC2', 'Postman'],
+            description: `A web application that provides users with the ability to interact with music metadata by performing actions such as saving and editing playlists, searching tracks, creating an account, adding ratings/comments, and more.`,
+            skills: ['Javascript', 'REST API', 'Node.js', 'Express', 'AWS', 'Git', 'Postman', 'Firebase'],
             github: 'https://github.com/sehaj1408/se3316-sehaj1408-Hersh-SS-coopercunningham-lab4',
             image: 'musicImage.png',
+            width: '45vw',
             id: 2
         },
         {
             name: 'Pokédex Web App',
-            description: `Web app that allows users to search Pokémon by name or 
-            number and displays matches and their details.`,
-            skills: ['Javascript', 'HTML', 'CSS', 'DOM', 'Git', 'VS Code', 'Amazon EC2'],
+            description: `A web application that enables users to search for Pokémon by name or number, displaying relevant results and their details.`,
+            skills: ['Javascript', 'HTML', 'CSS', 'DOM', 'Git', 'VS Code', 'AWS'],
             github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
             image: 'pokedexImage.png',
+            width: '50vw',
             id: 3
         },
         {
             name: 'Manufacturing Database Project',
-            description: `Database project that uses different types of SQL 
-            queries like DDL, DML, and DQL to manage a 
-            manufacturing management system.`,
+            description: `A database project utilizing various SQL query techniques, including DDL, DML, and DQL, to efficiently manage a manufacturing management system.`,
             skills: ['MySQL', 'MySQLWorkbench', 'Data modelling', 'Normalization', 'Git'],
             github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
             image: 'manufacturingImage.png',
+            width: '40vw',
             id: 4
+        },
+        {
+            name: 'Tenzies game',
+            description: `A personal React project that provides a user-friendly, responsive interface for clicking and rolling dice until all numbers match.`,
+            skills: ['React', 'Javascript', 'CSS', 'HTML', 'Git'],
+            github: 'https://github.com/sehaj1408/tenzies-react',
+            image: 'tenziesImage.png',
+            width: '35vw',
+            id: 5
         }
     ]
 

@@ -2,12 +2,13 @@
     display: flex;
     margin: auto;
     padding-bottom: 50px;
-    max-width: 80vw;
+    max-width: 75vw;
+    align-items: center;
 }
 
 .projects-image {
-    width: 45vw;
-    height: 45vh;
+    /* max-width: 45vw;
+    height: 25vw; */
 }
 
 .projects {
@@ -42,10 +43,9 @@
 .details-description {
     font-weight: 300;
     line-height: 200%;
-    padding-bottom: 20px;
     background-color: white;
     color: rgba(0, 0, 0, 0.733);
-    padding: 20px 20px;
+    padding: 20px 30px;
     font-size: 1.2vw;
 }
 
@@ -53,10 +53,10 @@
     padding-right: 30px;
     text-align: right;
     font-size: 1vw;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 200%;
 }
 
 .details-github {
-    
+    padding-right: 30px;
 }
