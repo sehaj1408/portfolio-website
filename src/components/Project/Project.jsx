@@ -19,13 +19,24 @@ export default function Projects(props) {
                 <div className='project-details'>
                     <h3 className='details-description'>{props.details.description}</h3>
                     <p className='details-skills'>{skillsArr.join("\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0")}</p>
-                    <a 
-                    href={props.details.github}
-                    target='_blank'
-                    className='details-github'
-                    >
-                    {props.details.github && 'Github'}
-                    </a>
+
+                    <div className='github-link'>
+                        <a 
+                        href={props.details.github}
+                        target='_blank'
+                        className='details-github'
+                        >
+                            {props.details.github && (
+                            <>
+                                Github
+                                <img 
+                                src={require("../../images/githubImage.png")} alt="github image"
+                                className='github-image' 
+                                />
+                            </>
+                            )}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

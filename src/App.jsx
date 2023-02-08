@@ -15,7 +15,7 @@ export default function App() {
             description: `A personal iOS app project that offers users the capability to view upcoming seminars and conferences, registered programs, and speaker information, as well as the ability to participate in real-time messaging.`,
             skills: ['Swift', 'Xcode', 'ReST API', 'Firebase', 'UIKit', 'Storyboards', 'Spatial reasoning'],
             image: 'capicImage.png',
-            width: '45vw',
+            width: '40vw',
             id: 1
         },
         {
@@ -24,7 +24,7 @@ export default function App() {
             skills: ['Javascript', 'REST API', 'Node.js', 'Express', 'AWS', 'Git', 'Postman', 'Firebase'],
             github: 'https://github.com/sehaj1408/se3316-sehaj1408-Hersh-SS-coopercunningham-lab4',
             image: 'musicImage.png',
-            width: '45vw',
+            width: '40vw',
             id: 2
         },
         {
@@ -33,17 +33,8 @@ export default function App() {
             skills: ['Javascript', 'HTML', 'CSS', 'DOM', 'Git', 'VS Code', 'AWS'],
             github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
             image: 'pokedexImage.png',
-            width: '50vw',
+            width: '45vw',
             id: 3
-        },
-        {
-            name: 'Manufacturing Database Project',
-            description: `A database project utilizing various SQL query techniques, including DDL, DML, and DQL, to efficiently manage a manufacturing management system.`,
-            skills: ['MySQL', 'MySQLWorkbench', 'Data modelling', 'Normalization', 'Git'],
-            github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
-            image: 'manufacturingImage.png',
-            width: '40vw',
-            id: 4
         },
         {
             name: 'Tenzies game',
@@ -51,9 +42,18 @@ export default function App() {
             skills: ['React', 'Javascript', 'CSS', 'HTML', 'Git'],
             github: 'https://github.com/sehaj1408/tenzies-react',
             image: 'tenziesImage.png',
+            width: '30vw',
+            id: 4
+        },
+        {
+            name: 'Manufacturing Database Project',
+            description: `A database project utilizing various SQL query techniques, including DDL, DML, and DQL, to efficiently manage a manufacturing management system.`,
+            skills: ['MySQL', 'MySQLWorkbench', 'Data modelling', 'Normalization', 'Git'],
+            github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
+            image: 'manufacturingImage.png',
             width: '35vw',
             id: 5
-        }
+        },
     ]
 
     const projectsElements = projectsArray.map((project) => {

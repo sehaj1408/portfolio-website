@@ -1,14 +1,9 @@
 .projects-container {
     display: flex;
     margin: auto;
-    padding-bottom: 50px;
     max-width: 75vw;
     align-items: center;
-}
-
-.projects-image {
-    /* max-width: 45vw;
-    height: 25vw; */
+    padding: 40px 0px;
 }
 
 .projects {
@@ -24,7 +19,9 @@
     font-size: 1.5vw;
     font-weight: 700;
     padding-right: 30px;
-    color: #4057a1;
+    margin-top: 0px;
+    margin-bottom: -1px;
+    color: #4057a1ea;
 }
 
 .projects-title::after {
@@ -46,7 +43,7 @@
     background-color: white;
     color: rgba(0, 0, 0, 0.733);
     padding: 20px 30px;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
 }
 
 .details-skills {
@@ -58,5 +55,29 @@
 }
 
 .details-github {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 1.1vw;
+    font-weight: 600;
+    text-decoration: none;
+    color: #4057a1;
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.details-github:hover {
+    color: #d79822a6;
+}
+
+.github-image {
+    padding-left: 5px;
+    height: 1vw;
+}
+
+.github-link {
+    display: flex;
+    justify-content: right;
     padding-right: 30px;
 }
