@@ -20,26 +20,41 @@
 }
 
 .projects-title {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-weight: 700;
+    padding-right: 30px;
+    color: #4057a1;
+}
+
+.projects-title::after {
+    content: "";
+    display: inline-block;
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    vertical-align: middle;
 }
 
 .project-details { 
-    width: 90%;
+    width: 95%;
 }
 
 .details-description {
     font-weight: 300;
     line-height: 200%;
     padding-bottom: 20px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.733);
+    padding: 20px 20px;
+    font-size: 1.2vw;
 }
 
 .details-skills {
+    padding-right: 30px;
     text-align: right;
     font-size: 1vw;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 200%;
-    color: #4056a1;
 }
 
 .details-github {

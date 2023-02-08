@@ -4,7 +4,7 @@ import './project.css';
 export default function Projects(props) {
     const imagePath = props.details.image;
 
-    let skillsArr = props.details.skills.map(skill => <u style={{ display: 'inline-block', marginLeft: '30px' }}>{skill}</u>);
+    let skillsArr = props.details.skills;
     
     return (
         <div className='projects-container'>
@@ -17,7 +17,7 @@ export default function Projects(props) {
                 <h3 className='projects-title'>{props.details.name}</h3>
                 <div className='project-details'>
                     <h3 className='details-description'>{props.details.description}</h3>
-                    <p className='details-skills'>{skillsArr}</p>
+                    <p className='details-skills'>{skillsArr.join("\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0")}</p>
                     <a 
                     href={props.details.github}
                     target='_blank'
