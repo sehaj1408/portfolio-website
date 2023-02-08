@@ -15,8 +15,7 @@ export default function App() {
             description: `iOS app personal project that allows users to view upcoming 
             seminars and conferences, registered programs, speakers and details 
             for each seminar, as well as participate in real-time messaging.`,
-            skills: `Swift • Xcode • REST API • Firebase • UIKit • 
-            Storyboards • Spatial reasoning`,
+            skills: ['Swift', 'Xcode', 'ReST API', 'Firebase', 'UIKit', 'Storyboards', 'Spatial reasoning'],
             image: 'capicImage.png',
             id: 1
         },
@@ -25,8 +24,7 @@ export default function App() {
             description: `Web app that allows users to interact with music metadata 
             by saving and editing playlists, searching tracks, creating an account, 
             adding rating/comments, and more.`,
-            skills: `Javascript • REST API • Node.js • HTML • CSS • Express • 
-            Firebase • Git • VS Code • Amazon EC2 • Postman`,
+            skills: ['Javascript', 'REST API', 'Node.js', 'HTML', 'CSS', 'Express', 'Firebase', 'Git', 'VS Code', 'Amazon EC2', 'Postman'],
             github: 'https://github.com/sehaj1408/se3316-sehaj1408-Hersh-SS-coopercunningham-lab4',
             image: 'capicImage.png',
             id: 2
@@ -35,7 +33,7 @@ export default function App() {
             name: 'Pokédex Web App',
             description: `Web app that allows users to search Pokémon by name or 
             number and displays matches and their details.`,
-            skills: `Javascript • HTML • CSS • DOM • Git • VS Code • Amazon EC2`,
+            skills: ['Javascript', 'HTML', 'CSS', 'DOM', 'Git', 'VS Code', 'Amazon EC2'],
             github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
             image: 'capicImage.png',
             id: 3
@@ -45,58 +43,24 @@ export default function App() {
             description: `Database project that uses different types of SQL 
             queries like DDL, DML, and DQL to manage a 
             manufacturing management system.`,
-            skills: `MySQL • MySQLWorkbench • Data modelling • Normalization • Git`,
+            skills: ['MySQL', 'MySQLWorkbench', 'Data modelling', 'Normalization', 'Git'],
             github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
             image: 'capicImage.png',
             id: 4
         }
     ]
 
-    const [capicState, setCapicState] = React.useState(false);
-    const [musicState, setMusicState] = React.useState(false);
-    const [pokedexState, setPokedexState] = React.useState(false);
-    const [manufacturingState, setManufacturingState] = React.useState(false);
-
-    const statesArray = [capicState, musicState, pokedexState, manufacturingState];
-
-    const projectsElements = projectsArray.map((project, index) => {
+    const projectsElements = projectsArray.map((project) => {
         return <Project 
             details = {project}
-            handleClick = {handleProjectDisplay}
-            showDetails = {statesArray[index]} 
         />
     }) 
-
-    function handleProjectDisplay(id) {
-        switch (id) {
-            case 1:
-                setCapicState(prevState => {
-                return !prevState;
-                })
-                break;
-            case 2:
-                setMusicState(prevState => {
-                return !prevState;
-                })
-                break;
-            case 3:
-                setPokedexState(prevState => {
-                return !prevState;
-                })
-                break;
-            case 4:
-                setManufacturingState(prevState => {
-                return !prevState;
-                })
-                break;
-        }
-    }
 
     return (
         <div>
             <Navbar />
             <About />
-            <h2 className='projectsAndExperiences' id='projectsAndExperiences'>What I've worked on and my experiences</h2>
+            <h2 className='projectsAndExperiences' id='projectsAndExperiences'>Projects I've worked on</h2>
             {projectsElements}
             <Skills />
             <Education />

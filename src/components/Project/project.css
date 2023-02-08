@@ -1,47 +1,45 @@
 .projects-container {
-    margin-bottom: 80px;
-}
-
-.projects {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.projects-button {
-    margin-top: 30px;
-    border-radius: 50px;
-    color: black;
-    border-radius: 10px;
-    border: none;
-    font-size: 1.1vw;
-    background-color: white;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
-    height: 10vh;
-    width: 30vw;
-    margin-left: 50px;
-}
-
-.projects-button:hover {
-    cursor: pointer;
-}
-
-.project-details {
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
+    margin: auto;
+    padding-bottom: 50px;
+    max-width: 80vw;
 }
 
 .projects-image {
     width: 45vw;
+    height: 45vh;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.778);
+}
+
+.projects-title {
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.project-details { 
+    width: 90%;
 }
 
 .details-description {
-
+    font-weight: 300;
+    line-height: 200%;
+    padding-bottom: 20px;
 }
 
 .details-skills {
-    
+    text-align:justify;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 200%;
+    padding-left: 10%;
 }
 
 .details-github {
