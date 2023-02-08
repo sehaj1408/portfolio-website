@@ -24,9 +24,9 @@ export default function App() {
             description: `Web app that allows users to interact with music metadata 
             by saving and editing playlists, searching tracks, creating an account, 
             adding rating/comments, and more.`,
-            skills: ['Javascript', 'REST API', 'Node.js', 'HTML', 'CSS', 'Express', 'Firebase', 'Git', 'VS Code', 'Amazon EC2', 'Postman'],
+            skills: ['Javascript', 'REST API', 'Node.js', 'HTML', 'CSS', 'Express', 'Firebase', 'Git', 'Amazon EC2', 'Postman'],
             github: 'https://github.com/sehaj1408/se3316-sehaj1408-Hersh-SS-coopercunningham-lab4',
-            image: 'capicImage.png',
+            image: 'musicImage.png',
             id: 2
         },
         {
@@ -35,7 +35,7 @@ export default function App() {
             number and displays matches and their details.`,
             skills: ['Javascript', 'HTML', 'CSS', 'DOM', 'Git', 'VS Code', 'Amazon EC2'],
             github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
-            image: 'capicImage.png',
+            image: 'pokedexImage.png',
             id: 3
         },
         {
@@ -45,7 +45,7 @@ export default function App() {
             manufacturing management system.`,
             skills: ['MySQL', 'MySQLWorkbench', 'Data modelling', 'Normalization', 'Git'],
             github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
-            image: 'capicImage.png',
+            image: 'manufacturingImage.png',
             id: 4
         }
     ]
