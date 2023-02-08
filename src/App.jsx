@@ -62,13 +62,39 @@ export default function App() {
         />
     }) 
 
+    const skillsArr = [
+        {name: 'Javascript', padding: '0px', image: 'javascriptImage.png'},
+        {name: 'HTML', padding: '0px', image: 'htmlImage.png'},
+        {name: 'CSS', padding: '0px', image: 'cssImage.png'},
+        {name: 'Swift', padding: '0.4vw', image: 'swiftImage.png'},
+        {name: 'SQL', padding: '0.6vw', image: 'sqlImage.png'},
+        {name: 'Java', padding: '0px', image: 'javaImage.png'},
+        {name: 'React', padding: '0.5vw', image: 'reactImage.png'},
+        {name: 'Github', padding: '0.5vw', image: 'githubImage.png'},
+        {name: 'Node.js', padding: '0.8vw', image: 'nodejsImage.png'},
+        {name: 'Express', padding: '1.2vw', image: 'expressImage.png'},
+        {name: 'REST API', padding: '0.3vw', image: 'restapiImage.png'},
+        {name: 'AWS', padding: '1vw', image: 'awsImage.png'},
+    ]
+
+    const skillsElements = skillsArr.map((skill) => {
+        return <Skills 
+            name = {skill.name}
+            padding = {skill.padding}
+            image = {skill.image}
+        />
+    })
+
     return (
         <div>
             <Navbar />
             <About />
             <h2 className='projectsAndExperiences' id='projectsAndExperiences'>Projects I've worked on</h2>
             {projectsElements}
-            <Skills />
+            <h2 className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
+            <div className='skills-container'>
+                {skillsElements}
+            </div>
             <Education />
             <Experience />
             <Contact />

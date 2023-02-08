@@ -1,12 +1,22 @@
 import React from 'react';
 import './skills.css';
 
-export default function Skills() {
+export default function Skills(props) {
+    const skillName = props.name;
+    const padding = props.padding;
+    const imagePath = props.image;
+
     return (
-        <div className='skills' id='skills'>
-            <h3>Tools and Technologies</h3>
-            <p>Javascript, HTML, CSS, Swift, SQL, React, Java</p>
-            <p>Github, Node.js, Express, ReST API, JSON, AWS</p>
+        <div className='skills'>
+            <div className='skills-imageAndName'>
+                <img 
+                className='skills-image'
+                src={require(`../../images/${imagePath}`)} 
+                alt="image" 
+                style={{padding: padding}}
+                />
+                <h4 className='skills-name'>{skillName}</h4>
+            </div>
         </div>
     )
 }

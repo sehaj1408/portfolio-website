@@ -27,14 +27,14 @@ export default function Projects(props) {
                         className='details-github'
                         >
                             {props.details.github && (
-                            <>
-                                Github
-                                <img 
-                                src={require("../../images/githubImage.png")} alt="github image"
-                                className='github-image' 
-                                />
-                            </>
-                            )}
+                        <>
+                            Github
+                            <img 
+                            src={require("../../images/githubImage.png")} alt="github image"
+                            className='github-image' 
+                            />
+                        </>
+                        )}
                         </a>
                     </div>
                 </div>
