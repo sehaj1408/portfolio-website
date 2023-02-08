@@ -4,7 +4,7 @@ import './project.css';
 export default function Projects(props) {
     const imagePath = props.details.image;
 
-    let skillsArr = props.details.skills.join('\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0');
+    let skillsArr = props.details.skills.map(skill => <u style={{ display: 'inline-block', marginLeft: '30px' }}>{skill}</u>);
     
     return (
         <div className='projects-container'>
