@@ -13,6 +13,7 @@ export default function Navbar() {
 
     return (
         <motion.nav 
+        style={{ top: '-20px' }}
         animate={{ y: 20 }}
         transition={{ type: "spring", stiffness: 40 }}
         className='nav'

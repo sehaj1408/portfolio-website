@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { easeOut, motion } from 'framer-motion';
 import './app.css'
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
@@ -113,7 +113,7 @@ export default function App() {
             id='projectsAndExperiences'
             style={{marginBottom: '100px'}}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            animate={{ opacity: 1, x: 40 }}
             transition={{ duration: 0.5 }}
             >
                 Projects I've worked on
