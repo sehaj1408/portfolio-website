@@ -19,7 +19,7 @@ export default function Projects(props) {
         >
             <img 
             data-aos='fade-right'
-            data-aos-anchor-placement='top-center'
+            data-aos-anchor-placement='bottom-bottom'
             src={require(`../../images/${imagePath}`)} 
             style={{width: details.width}}
             alt="Image" 
@@ -28,7 +28,7 @@ export default function Projects(props) {
 
             <div 
             data-aos='fade-left' 
-            data-aos-anchor-placement='top-center'
+            data-aos-anchor-placement='bottom-bottom'
             className='projects' 
             id='projects'
             >
