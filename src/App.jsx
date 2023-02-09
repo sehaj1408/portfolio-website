@@ -106,21 +106,25 @@ export default function App() {
         <div>
             <Navbar />
             <About />
+            <div className='projects-container-navbar' id='projects-container-navbar'></div>
             <h2 className='projectsAndExperiences' id='projectsAndExperiences'>Projects I've worked on</h2>
             {projectsElements}
             <div className='skills-education-container'>
                 <div className='skills-tools-container'>
+                    <div className='skills-container-navbar' id='skills-container-navbar'></div>
                     <h2 className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
-                    <div className='skills-container'>
+                    <div className='skills-container' id='skills-container'>
                         {skillsElements}
                     </div>
                 </div>
                 <div className='education-container'>
+                    <div className='education-container-navbar' id='education-container-navbar'></div>
                     <h2 className='education-header' id='education-header'>Education</h2>
                     {educationElements}
                 </div>
             </div>
             <div className='contact-container' id='contact-container'>
+                <div className='contact-container-navbar' id='contact-container-navbar'></div>
                 <h2 className='contact-header'>Get in Touch</h2>
                 <Contact 
                     name = 'Sehaj Naangal'

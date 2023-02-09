@@ -7,7 +7,7 @@ export default function Projects(props) {
     const details = props.details;
     
     return (
-        <div className='projects-container'>
+        <div className='projects-container-main'>
                 <img 
                 src={require(`../../images/${imagePath}`)} 
                 style={{width: details.width}}
