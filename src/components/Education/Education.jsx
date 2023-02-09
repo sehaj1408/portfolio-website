@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './education.css';
+import { easeOut, motion } from 'framer-motion';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Education(props) {
+    useEffect(() => {
+        Aos.init({});
+    }, []);
+
     return (
-        <div className='education'>
+        <div data-aos='fade-left' className='education'>
             <div className='degree-logo-container'>
                 <img 
                 src={require(`../../images/${props.westernImage}`)} 

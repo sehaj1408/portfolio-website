@@ -135,13 +135,13 @@ export default function App() {
                 </div>
                 <div className='education-container'>
                     <div className='education-container-navbar' id='education-container-navbar'></div>
-                    <h2 className='education-header' id='education-header'>Education</h2>
+                    <h2 data-aos='fade-down' className='education-header' id='education-header'>Education</h2>
                     {educationElements}
                 </div>
             </div>
             <div className='contact-container' id='contact-container'>
                 <div className='contact-container-navbar' id='contact-container-navbar'></div>
-                <h2 className='contact-header'>Get in Touch</h2>
+                <h2 data-aos='fade-down' className='contact-header'>Get in Touch</h2>
                 <Contact 
                     name = 'Sehaj Naangal'
                     email = 'sehajnaangal@gmail.com'
