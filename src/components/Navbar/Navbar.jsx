@@ -20,7 +20,7 @@ export default function Navbar() {
                     <button onClick={() => scrollToComponent('projects-container-navbar')}>PROJECTS</button>
                 </li>
                 <li>
-                    <button onClick={() => scrollToComponent('skills-container-navbar')}>SKILLS</button>
+                    <button onClick={() => scrollToComponent('skills-container-navbar')}>TECHNOLOGIES</button>
                 </li>
                 <li>
                     <button onClick={() => scrollToComponent('education-container-navbar')}>EDUCATION</button>

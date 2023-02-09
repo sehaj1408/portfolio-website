@@ -1,3 +1,8 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
 .nav {
     position: fixed;
     top: 0;
@@ -21,6 +26,8 @@
 
 .nav > ul > li {
     padding: 0px 1vw;
+    transform: scale(0.94);
+    animation: fadeIn 1.3s;
 }
 
 .nav > ul > li > button {
