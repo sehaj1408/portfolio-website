@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './app.css'
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
@@ -107,7 +108,16 @@ export default function App() {
             <Navbar />
             <About />
             <div className='projects-container-navbar' id='projects-container-navbar'></div>
-            <h2 className='projectsAndExperiences' id='projectsAndExperiences'>Projects I've worked on</h2>
+            <motion.h2 
+            className='projectsAndExperiences' 
+            id='projectsAndExperiences'
+            style={{marginBottom: '100px'}}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            >
+                Projects I've worked on
+            </motion.h2>
             {projectsElements}
             <div className='skills-education-container'>
                 <div className='skills-tools-container'>

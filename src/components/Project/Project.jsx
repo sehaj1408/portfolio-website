@@ -1,5 +1,6 @@
 import React from 'react';
 import './project.css';
+import { motion } from 'framer-motion';
 
 export default function Projects(props) {
     const imagePath = props.details.image;
