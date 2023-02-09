@@ -121,6 +121,7 @@ export default function App() {
             id='projectsAndExperiences'
             style={{marginBottom: '100px'}}
             data-aos='fade-down'
+            data-aos-anchor-placement='top-center'
             >
                 Projects I've worked on
             </motion.h2>
@@ -130,7 +131,7 @@ export default function App() {
                     <div className='skills-container-navbar' id='skills-container-navbar'></div>
                     <h2 data-aos='fade-down' className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
                     <div className='skills-container' id='skills-container'>
-                        {skillsElements}
+                        {skillsElements} 
                     </div>
                 </div>
                 <div className='education-container'>
@@ -141,7 +142,7 @@ export default function App() {
             </div>
             <div className='contact-container' id='contact-container'>
                 <div className='contact-container-navbar' id='contact-container-navbar'></div>
-                <h2 data-aos='fade-down' className='contact-header'>Get in Touch</h2>
+                <h2 data-aos='fade-down' data-aos-anchor-placement='center-bottom' className='contact-header'>Get in Touch</h2>
                 <Contact 
                     name = 'Sehaj Naangal'
                     email = 'sehajnaangal@gmail.com'
