@@ -5,7 +5,6 @@ import About from './components/About/About';
 import Project from './components/Project/Project';
 import Skills from './components/Skills/Skills';
 import Education from './components/Education/Education';
-import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
 
 export default function App() {
@@ -121,8 +120,16 @@ export default function App() {
                     {educationElements}
                 </div>
             </div>
-            <Experience />
-            <Contact />
+            <div className='contact-container' id='contact-container'>
+                <h2 className='contact-header'>Get in Touch</h2>
+                <Contact 
+                    name = 'Sehaj Naangal'
+                    email = 'sehajnaangal@gmail.com'
+                    number = '647-674-0529'
+                    linkedInImage = 'linkedinImage.png'
+                    githubImage = 'githubImage.png'
+                />
+            </div>
         </div>
     )
 }
