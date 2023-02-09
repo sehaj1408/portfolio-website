@@ -36,7 +36,7 @@
 }
 
 .skills-education-container {
-    margin: 20vh 10vw;
+    margin: 10vh 10vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,5 +76,5 @@
 }
 
 .contact-container {
-    margin-top: 40vh;
+    margin-top: 25vh;
 }
