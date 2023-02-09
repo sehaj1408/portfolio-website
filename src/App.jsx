@@ -21,7 +21,7 @@ export default function App() {
         {
             name: 'Music Web App',
             description: `A web application that provides users with the ability to interact with music metadata by performing actions such as saving and editing playlists, searching tracks, creating an account, adding ratings/comments, and more.`,
-            skills: ['Javascript', 'REST API', 'Node.js', 'Express', 'AWS', 'Git', 'Postman', 'Firebase'],
+            skills: ['Javascript', 'Node.js', 'Express', 'REST API', 'AWS', 'Git', 'Postman', 'Firebase'],
             github: 'https://github.com/sehaj1408/se3316-sehaj1408-Hersh-SS-coopercunningham-lab4',
             image: 'musicImage.png',
             width: '40vw',
@@ -85,17 +85,42 @@ export default function App() {
         />
     })
 
+    const educationArr = [
+        {
+            westernImage: 'westernImage.png',
+            degree: {name: 'Bachelor of Engineering Science in Software Engineering', location: 'London, ON', date: 'Sep 2020 - Apr 2024'},
+            wdsImage: 'wdsImage.png',
+            clubs: {name: 'Western Developers Society', role: 'Team Lead'},
+        }
+    ]
+
+    const educationElements = educationArr.map((item) => {
+        return <Education 
+            westernImage = {item.westernImage}
+            degree = {item.degree}
+            wdsImage = {item.wdsImage}
+            clubs = {item.clubs}
+        />
+    })
+
     return (
         <div>
             <Navbar />
             <About />
             <h2 className='projectsAndExperiences' id='projectsAndExperiences'>Projects I've worked on</h2>
             {projectsElements}
-            <h2 className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
-            <div className='skills-container'>
-                {skillsElements}
+            <div className='skills-education-container'>
+                <div className='skills-tools-container'>
+                    <h2 className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
+                    <div className='skills-container'>
+                        {skillsElements}
+                    </div>
+                </div>
+                <div className='education-container'>
+                    <h2 className='education-header' id='education-header'>Education</h2>
+                    {educationElements}
+                </div>
             </div>
-            <Education />
             <Experience />
             <Contact />
         </div>

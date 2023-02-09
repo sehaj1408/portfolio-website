@@ -1,13 +1,33 @@
 import React from 'react';
 import './education.css';
 
-export default function Education() {
+export default function Education(props) {
     return (
-        <div className='education' id='education'>
-            <h3>Education</h3>
-            <p>B.E.Sc in Software Engineering | University of Western Ontario - London, ON	SEP 2020 - APR 2024</p>
-            <p>University Clubs: Team Lead at Western Developers Society</p>
-            <p>Relevant courses: Web technologies, Scripting Language Fundamentals, Algorithms and Data structures, Software Requirements and Analysis, Database Management Systems</p>
-        </div>
+        <div className='education'>
+            <div className='degree-logo-container'>
+                <img 
+                src={require(`../../images/${props.westernImage}`)} 
+                alt="image" 
+                className='education-image'
+                />
+                <div className='education-degree'>
+                    <p>{props.degree.name}</p>
+                    <p>{props.degree.location}</p>
+                    <p>{props.degree.date}</p>
+                </div>
+            </div>
+            <div className='clubs-image-container'>
+                <img 
+                className='wds-image'
+                src={require(`../../images/${props.wdsImage}`)} 
+                alt="image" 
+                />
+                <div className='education-clubs'>
+                    <p>{props.clubs.name}</p>
+                    <p>{props.clubs.role}</p>
+                </div>
+            </div>
+            <p className='education-courses'>{props.courses}</p>
+        </div> 
     )
 }

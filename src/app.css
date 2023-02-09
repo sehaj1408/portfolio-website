@@ -12,12 +12,9 @@
   }
 
   .skills-tools {
-    margin-left: 18vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15vh;
-    margin-bottom: 3vh;
     border-radius: 10px;
     background-color: white;
     width: 25vw;
@@ -25,10 +22,43 @@
     color: rgba(0, 0, 0, 0.807);
 }
 
+.skills-tools-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10vw;
+}
+
 .skills-container {
-    /* background-color: lightblue; */
-    margin-left: 14vw;
     width: 33vw;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(7vw, 1fr));
+}
+
+.skills-education-container {
+    margin: 20vh 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    border-radius: 10px;
+    background-color: white;
+    height: 7vh;
+    color: rgba(0, 0, 0, 0.807);
+}
+
+.education-container {
+    display: flex;
+    margin-top: 35vh;
+    width: 35vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
