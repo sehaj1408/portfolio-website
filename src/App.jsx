@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import { easeOut, motion } from 'framer-motion';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 import './app.css'
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
@@ -9,6 +13,10 @@ import Education from './components/Education/Education';
 import Contact from './components/Contact/Contact';
 
 export default function App() {
+    useEffect(() => {
+        Aos.init({});
+    }, []);
+
     const projectsArray = [
         {
             name: 'CapicConnect iOS App',
@@ -112,9 +120,7 @@ export default function App() {
             className='projectsAndExperiences' 
             id='projectsAndExperiences'
             style={{marginBottom: '100px'}}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1, x: 40 }}
-            transition={{ duration: 0.5 }}
+            data-aos='fade-down'
             >
                 Projects I've worked on
             </motion.h2>
@@ -122,7 +128,7 @@ export default function App() {
             <div className='skills-education-container'>
                 <div className='skills-tools-container'>
                     <div className='skills-container-navbar' id='skills-container-navbar'></div>
-                    <h2 className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
+                    <h2 data-aos='fade-down' className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
                     <div className='skills-container' id='skills-container'>
                         {skillsElements}
                     </div>

@@ -1,27 +1,41 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './project.css';
 import { motion } from 'framer-motion';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Projects(props) {
+    useEffect(() => {
+        Aos.init({});
+    }, []);
+
     const imagePath = props.details.image;
     let skillsArr = props.details.skills;
     const details = props.details;
     
     return (
-        <div className='projects-container-main'>
-                <img 
-                src={require(`../../images/${imagePath}`)} 
-                style={{width: details.width}}
-                alt="Image" 
-                className='projects-image'
-                />
-            <div className='projects' id='projects'>
+        <div 
+        className='projects-container-main'
+        >
+            <img 
+            data-aos='fade-right'
+            src={require(`../../images/${imagePath}`)} 
+            style={{width: details.width}}
+            alt="Image" 
+            className='projects-image'
+            />
+
+            <div 
+            data-aos='fade-left' 
+            className='projects' 
+            id='projects'
+            >
                 <h3 className='projects-title'>{props.details.name}</h3>
                 <div className='project-details'>
-                    <h3 className='details-description'>{props.details.description}</h3>
-                    <p className='details-skills'>{skillsArr.join("\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0")}</p>
+                    <h3 data-aos='flip-up' className='details-description'>{props.details.description}</h3>
+                    <p data-aos='fade-left' className='details-skills'>{skillsArr.join("\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0")}</p>
 
-                    <div className='github-link'>
+                    <div data-aos='fade-left' className='github-link'>
                         <a 
                         href={props.details.github}
                         target='_blank'

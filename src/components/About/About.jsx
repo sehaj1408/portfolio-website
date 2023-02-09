@@ -12,15 +12,16 @@ export default function Navbar() {
             className='about-name'
             style={{ paddingTop: '40px' }}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
+            animate={{ opacity: 1, y: -40 }}
+            transition={{ duration: 0.8 }}
             >
                 Hi, I'm Sehaj
             </motion.h1>
             <motion.p 
+            style={{ marginTop: '-10px' }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
             className='about-p1'
             >
                 I'm a third-year Software Engineering student 

@@ -13,9 +13,9 @@ export default function Navbar() {
 
     return (
         <motion.nav 
-        style={{ top: '-20px' }}
-        animate={{ y: 20 }}
-        transition={{ type: "spring", stiffness: 40 }}
+        style={{ top: '-100px' }}
+        animate={{ y: 100 }}
+        transition={{ type: "spring", stiffness: 30 }}
         className='nav'
         >
             <motion.ul animate={{  }}>
