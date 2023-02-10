@@ -1,3 +1,7 @@
+.app-container {
+    overflow: hidden;
+}
+
 .projects-container-navbar {
     height: 11vh;
 }
@@ -19,7 +23,7 @@
     height: 10vh;
 }
 
-  .skills-tools {
+.skills-tools {
     display: flex;
     align-items: center;
     justify-content: center;

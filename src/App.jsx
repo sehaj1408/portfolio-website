@@ -114,7 +114,7 @@ export default function App() {
     })
 
     return (
-        <div>
+        <div className='app-container'>
             <Navbar />
             <About />
             <div className='projects-container-navbar' id='projects-container-navbar'></div>
@@ -133,7 +133,7 @@ export default function App() {
                     <div className='skills-container-navbar' id='skills-container-navbar'></div>
                     <h2 
                     data-aos='fade-down' 
-                    style={{ marginBottom: '100px' }}
+                    style={{ marginBottom: '130px' }}
                     className='skills-tools' 
                     id='skills-tools'>
                         Tools and Technologies
