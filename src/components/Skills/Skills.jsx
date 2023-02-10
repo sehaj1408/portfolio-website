@@ -14,7 +14,7 @@ export default function Skills(props) {
 
     return (
         <div className='skills'>
-            <div data-aos='fade-up' className='skills-imageAndName'>
+            <div data-aos='fade-up' data-aos-anchor-placement='bottom-bottom' className='skills-imageAndName'> 
                 <img 
                 className='skills-image'
                 src={require(`../../images/${imagePath}`)} 

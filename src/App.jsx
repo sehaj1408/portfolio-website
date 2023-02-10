@@ -129,8 +129,18 @@ export default function App() {
             <div className='skills-education-container'>
                 <div className='skills-tools-container'>
                     <div className='skills-container-navbar' id='skills-container-navbar'></div>
-                    <h2 data-aos='fade-down' className='skills-tools' id='skills-tools'>Tools and Technologies</h2>
-                    <div className='skills-container' id='skills-container'>
+                    <h2 
+                    data-aos='fade-down' 
+                    style={{ marginBottom: '100px' }}
+                    className='skills-tools' 
+                    id='skills-tools'>
+                        Tools and Technologies
+                    </h2>
+                    <div 
+                    style={{ marginBottom: '100px' }}
+                    className='skills-container' 
+                    id='skills-container'
+                    >
                         {skillsElements} 
                     </div>
                 </div>

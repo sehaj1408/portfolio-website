@@ -3,7 +3,7 @@
     margin: auto;
     max-width: 75vw;
     align-items: center;
-    padding: 40px 0px;
+    padding: 0px 0px;
 }
 
 .projects {
@@ -13,6 +13,7 @@
     text-align: right;
     align-items: flex-end;
     color: rgba(0, 0, 0, 0.778);
+    height: 100%;
 }
 
 .projects-title {
@@ -20,7 +21,7 @@
     font-weight: 700;
     padding-right: 30px;
     margin-top: 0px;
-    margin-bottom: -1px;
+    margin-bottom: 0px;
     color: #4057a1ea;
 }
 
@@ -42,7 +43,7 @@
     line-height: 200%;
     background-color: white;
     color: rgba(0, 0, 0, 0.733);
-    padding: 20px 30px;
+    padding: 0px 30px;
     font-size: 1.1vw;
 }
 

@@ -16,10 +16,11 @@ export default function Projects(props) {
     return (
         <div 
         className='projects-container-main'
+        style={{ marginBottom: '50px' }}
         >
             <img 
             data-aos='fade-right'
-            data-aos-anchor-placement='bottom-bottom'
+            data-aos-anchor-placement='top-center'
             src={require(`../../images/${imagePath}`)} 
             style={{width: details.width}}
             alt="Image" 
@@ -28,7 +29,7 @@ export default function Projects(props) {
 
             <div 
             data-aos='fade-left' 
-            data-aos-anchor-placement='center-bottom'
+            data-aos-anchor-placement='top-center' 
             className='projects' 
             id='projects'
             >

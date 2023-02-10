@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './navbar.css';
 import { motion } from 'framer-motion';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Navbar() {
+    useEffect(() => {
+        Aos.init({});
+    }, []);
+
     function scrollToComponent(id) {
         const component = document.getElementById(id);
         window.scrollTo({

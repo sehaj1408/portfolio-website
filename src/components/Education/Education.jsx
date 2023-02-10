@@ -10,7 +10,7 @@ export default function Education(props) {
     }, []);
 
     return (
-        <div data-aos='fade-left' className='education'>
+        <div data-aos='fade-left' data-aos-anchor-placement='bottom-bottom' className='education'>
             <div className='degree-logo-container'>
                 <img 
                 src={require(`../../images/${props.westernImage}`)} 
