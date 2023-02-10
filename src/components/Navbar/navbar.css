@@ -1,7 +1,13 @@
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-  }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav > ul > li > button {
+        font-size: 0.3vh;
+    }
+}
 
 .nav {
     position: fixed;
@@ -12,7 +18,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    height: 4vw;
+    height: 7vh;
     transition: all 0s ease-in-out;
     z-index: 1;
 }
@@ -32,7 +38,7 @@
 }
 
 .nav > ul > li > button {
-    font-size: 1vw;
+    font-size: 1.5vh;
     font-weight: 500;
     border: none;
     background-color: transparent;

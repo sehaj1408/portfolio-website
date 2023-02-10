@@ -2,22 +2,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  width: 80vw;
+  width: 70vw;
   margin: auto;
-  padding: 0 10%;
   text-align: left;
+  background-color: lightblue;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .about {
-    width: 80vw;
+    
   }
 }
 
 .about-name {
   color: rgba(0, 0, 0, 0.759);
-  font-size: 4vw;
+  font-size: 5vh;
   line-height: 10%;
 }
 
