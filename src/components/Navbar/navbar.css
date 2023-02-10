@@ -10,7 +10,6 @@
     right: 0;
     background-color: rgb(38, 38, 38);
     display: flex;
-    flex-wrap: wrap;
     justify-content: right;
     align-items: center;
     height: 7vh;
@@ -30,6 +29,7 @@
     padding: 0px 1vw;
     transform: scale(0.94);
     animation: fadeIn 1.3s;
+    align-items: center;
 }
 
 .nav > ul > li > button {
