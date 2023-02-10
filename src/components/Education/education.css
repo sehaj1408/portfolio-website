@@ -42,7 +42,7 @@
     align-items: center;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
     .education {
         width: 90vw;
     }

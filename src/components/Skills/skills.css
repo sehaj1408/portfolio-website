@@ -26,9 +26,9 @@
     justify-content: center;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
     .skills-imageAndName {
-        height: 20vw;
+        height: 24vw;
     }
 
     .skills-name {

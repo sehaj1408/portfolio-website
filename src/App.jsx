@@ -71,7 +71,7 @@ export default function App() {
     }) 
 
     const skillsArr = [
-        {name: 'Javascript', padding: '0px', height: '7.5vh', width: '12.4vh', image: 'javascriptImage.png'},
+        {name: 'Javascript', padding: '0px', height: '5.2vh', width: '8.5vh', image: 'javascriptImage.png'},
         {name: 'HTML', padding: '0.02vw', height: '11.2vw', width: '11vw', image: 'htmlImage.png'},
         {name: 'CSS', padding: '0.05vw', height: '11.1vw', width: '8vw', image: 'cssImage.png'},
         {name: 'Swift', padding: '0.45vw', height: '10.3vw', width: '10.2vw', image: 'swiftImage.png'},
