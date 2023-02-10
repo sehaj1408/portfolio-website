@@ -71,18 +71,18 @@ export default function App() {
     }) 
 
     const skillsArr = [
-        {name: 'Javascript', padding: '0px', image: 'javascriptImage.png'},
-        {name: 'HTML', padding: '0px', image: 'htmlImage.png'},
-        {name: 'CSS', padding: '0px', image: 'cssImage.png'},
-        {name: 'Swift', padding: '0.4vw', image: 'swiftImage.png'},
-        {name: 'SQL', padding: '0.6vw', image: 'sqlImage.png'},
-        {name: 'Java', padding: '0px', image: 'javaImage.png'},
-        {name: 'React', padding: '0.5vw', image: 'reactImage.png'},
-        {name: 'Github', padding: '0.5vw', image: 'githubImage.png'},
-        {name: 'Node.js', padding: '0.8vw', image: 'nodejsImage.png'},
-        {name: 'Express', padding: '1.2vw', image: 'expressImage.png'},
-        {name: 'REST API', padding: '0.3vw', image: 'restapiImage.png'},
-        {name: 'AWS', padding: '1vw', image: 'awsImage.png'},
+        {name: 'Javascript', padding: '0px', height: '5vw', width: '8vw', image: 'javascriptImage.png'},
+        {name: 'HTML', padding: '0.02vw', height: '5vw', width: '5.3vw', image: 'htmlImage.png'},
+        {name: 'CSS', padding: '0.05vw', height: '5vw', width: '4vw', image: 'cssImage.png'},
+        {name: 'Swift', padding: '0.45vw', height: '4.2vw', width: '4.2vw', image: 'swiftImage.png'},
+        {name: 'SQL', padding: '0.3vw', height: '4vw', width: '8.5vw', image: 'sqlImage.png'},
+        {name: 'Java', padding: '0.12vw', height: '4.5vw', width: '3.5vw', image: 'javaImage.png'},
+        {name: 'React', padding: '0.55vw', height: '3.6vw', width: '4.2vw', image: 'reactImage.png'},
+        {name: 'Github', padding: '0.37vw', height: '4vw', width: '4vw', image: 'githubImage.png'},
+        {name: 'Node.js', padding: '0.8vw', height: '3.5vw', width: '5.8vw', image: 'nodejsImage.png'},
+        {name: 'Express', padding: '1.24vw', height: '2.7vw', width: '8.4vw', image: 'expressImage.png'},
+        {name: 'REST API', padding: '0.7vw', height: '4vw', width: '4.6vw', image: 'restapiImage.png'},
+        {name: 'AWS', padding: '1.1vw', height: '3vw', width: '4.7vw', image: 'awsImage.png'},
     ]
 
     const skillsElements = skillsArr.map((skill) => {
@@ -90,6 +90,8 @@ export default function App() {
             name = {skill.name}
             padding = {skill.padding}
             image = {skill.image}
+            height = {skill.height}
+            width = {skill.width}
         />
     })
 

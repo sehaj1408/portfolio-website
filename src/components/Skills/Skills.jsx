@@ -14,6 +14,9 @@ export default function Skills(props) {
     const padding = props.padding;
     const imagePath = props.image;
 
+    const height = props.height;
+    const width = props.width;
+
     return (
         <div className='skills'>
             <div data-aos='fade-up' data-aos-anchor-placement='bottom-bottom' className='skills-imageAndName'> 
@@ -21,7 +24,7 @@ export default function Skills(props) {
                 className='skills-image'
                 src={require(`../../images/${imagePath}`)} 
                 alt="image" 
-                style={{padding: padding}}
+                style={{height: height, width: width, padding: padding}}
                 />
                 <h4 data-aos='fade-up' className='skills-name'>{skillName}</h4>
             </div>

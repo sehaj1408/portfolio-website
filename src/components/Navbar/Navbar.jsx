@@ -38,7 +38,7 @@ export default function Navbar() {
                     <button onClick={() => scrollToComponent('education-container-navbar')}>EDUCATION</button>
                 </motion.li>
                 <motion.li>
-                    <button onClick={() => window.open('', '_blank')}>RESUME</button>
+                    <button onClick={() => window.open('https://drive.google.com/file/d/1zc82GDtKw-6w2-fLYeU0FF52gVg-VVjC/view?usp=share_link', '_blank')}>RESUME</button>
                 </motion.li>
                 <motion.li>
                     <button onClick={() => scrollToComponent('contact-container-navbar')}>CONTACT</button>
