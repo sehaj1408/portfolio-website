@@ -18,9 +18,9 @@ export default function Education(props) {
                 className='education-image'
                 />
                 <div className='education-degree'>
-                    <p>{props.degree.name}</p>
-                    <p>{props.degree.location}</p>
-                    <p>{props.degree.date}</p>
+                    <p style={{ fontWeight: '500' }}>{props.degree.name}</p>
+                    <p style={{ fontWeight: '300' }}>{props.degree.location}</p>
+                    <p style={{ fontWeight: '300' }}>{props.degree.date}</p>
                 </div>
             </div> 
             <div className='clubs-image-container'>
@@ -30,8 +30,8 @@ export default function Education(props) {
                 alt="image" 
                 />
                 <div className='education-clubs'>
-                    <p>{props.clubs.name}</p>
-                    <p>{props.clubs.role}</p>
+                    <p style={{ fontWeight: '500' }}>{props.clubs.name}</p>
+                    <p style={{ fontWeight: '300' }}>{props.clubs.role}</p>
                 </div>
             </div>
             <p className='education-courses'>{props.courses}</p>
