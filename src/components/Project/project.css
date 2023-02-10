@@ -82,3 +82,17 @@
     justify-content: right;
     padding-right: 30px;
 }
+
+.projects-image {
+    width: 40vw;
+}
+
+@media all and (max-width: 600px) {
+    .projects-container-main {
+        flex-direction: column;
+    }
+
+    .projects-image {
+        width: 60vw;
+    }
+}

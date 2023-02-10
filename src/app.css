@@ -117,3 +117,10 @@
 .copyright-name {
     padding-left: 1px;
 }
+
+@media all and (max-width: 600px) {
+    .projectsAndExperiences {
+        width: 60vw;
+        font-size: 4vw;
+    }
+}

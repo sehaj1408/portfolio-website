@@ -6,7 +6,6 @@
   width: 70vw;
   margin: auto;
   text-align: left;
-  background-color: lightblue;
 }
 
 .about-name {
@@ -22,9 +21,9 @@
   font-size: 1.2vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .about {
-
+    width: 90vw;
   }
   .about-name {
     font-size: 9vw;
@@ -32,6 +31,6 @@
   }
 
   .about-p1 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }

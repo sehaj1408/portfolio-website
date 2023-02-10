@@ -22,7 +22,6 @@ export default function Projects(props) {
             data-aos='fade-right'
             data-aos-anchor-placement='top-center'
             src={require(`../../images/${imagePath}`)} 
-            style={{width: details.width}}
             alt="Image" 
             className='projects-image'
             />
