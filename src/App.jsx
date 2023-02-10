@@ -161,6 +161,11 @@ export default function App() {
                     githubImage = 'githubImage.png'
                 />
             </div>
+            <footer className='footer'>
+                <p className='copyright-title'>Copyright</p>
+                <img src={require('./images/copyrightImage.png')} alt="image" className='copyright-image'/>
+                <p className='copyright-name'>2023 Sehaj Naangal</p>
+            </footer>
         </div>
     )
 }

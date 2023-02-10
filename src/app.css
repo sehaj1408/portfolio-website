@@ -95,3 +95,25 @@
 .contact-container {
     margin-top: 25vh;
 }
+
+.copyright-title {
+    padding-right: 5px;
+}
+
+.copyright-image {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.footer {
+    color: rgb(55, 55, 55);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.copyright-name {
+    padding-left: 1px;
+}
