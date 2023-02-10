@@ -5,8 +5,10 @@ import './skills.css';
 
 export default function Skills(props) {
     useEffect(() => {
-        Aos.init({});
-    }, []);
+        window.addEventListener('load', () => {
+          Aos.init({});
+        }); 
+      }, []);
 
     const skillName = props.name;
     const padding = props.padding;

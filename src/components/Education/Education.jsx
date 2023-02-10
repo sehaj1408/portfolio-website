@@ -22,7 +22,7 @@ export default function Education(props) {
                     <p>{props.degree.location}</p>
                     <p>{props.degree.date}</p>
                 </div>
-            </div>
+            </div> 
             <div className='clubs-image-container'>
                 <img 
                 className='wds-image'
