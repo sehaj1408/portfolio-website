@@ -43,16 +43,24 @@
 }
 
 @media all and (max-width: 600px) {
+    .education {
+        width: 90vw;
+    }
+
+    .education > div {
+        margin: 10px 0px;
+    }
+
     .degree-logo-container {
-        width: 70vw;
+        width: 90vw;
     }
 
     .education-degree {
-        width: 50vw;
-        font-size: 2.3vw;
+        width: 80vw;
+        font-size: 3vw;
     }
 
     .education-clubs {
-        font-size: 2.3vw;
+        font-size: 3vw;
     }
 }
