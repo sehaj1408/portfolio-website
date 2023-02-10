@@ -43,3 +43,24 @@
 .github-title-image {
     width: 13vw;
 }
+
+@media all and (max-width: 600px) {
+    .contact-details {
+        font-size: 2.5vw;
+        margin-top: -30px;
+    }
+
+    .bubble-image {
+        width: 15vw;
+        height: 15vw;
+        margin-top: -30px;
+    }
+
+    .linkedin-title-image {
+        width: 15vw;
+    }
+
+    .github-title-image {
+        width: 20vw;
+    }
+}

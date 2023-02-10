@@ -145,4 +145,20 @@
         width: 80vw;
         grid-template-columns: repeat(auto-fill,minmax(18vw, 1fr));
     }
+
+    .education-header {
+        width: 60vw;
+    }
+
+    .contact-header {
+        width: 60vw;
+    }
+
+    .footer {
+        font-size: 2.4vw;
+    }
+
+    .copyright-image {
+        width: 12px;
+    }
 }

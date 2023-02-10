@@ -37,8 +37,22 @@
 }
 
 .clubs-image-container {
-    /* background-color: lightblue; */
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+@media all and (max-width: 600px) {
+    .degree-logo-container {
+        width: 70vw;
+    }
+
+    .education-degree {
+        width: 50vw;
+        font-size: 2.3vw;
+    }
+
+    .education-clubs {
+        font-size: 2.3vw;
+    }
 }
