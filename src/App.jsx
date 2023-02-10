@@ -121,7 +121,7 @@ export default function App() {
             id='projectsAndExperiences'
             style={{marginBottom: '100px'}}
             data-aos='fade-down'
-            data-aos-anchor-placement='top-center'
+            data-aos-anchor-placement='bottom-bottom'
             >
                 Projects I've worked on
             </motion.h2>

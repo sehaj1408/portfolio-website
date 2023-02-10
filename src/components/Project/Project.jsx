@@ -28,7 +28,7 @@ export default function Projects(props) {
 
             <div 
             data-aos='fade-left' 
-            data-aos-anchor-placement='bottom-bottom'
+            data-aos-anchor-placement='center-bottom'
             className='projects' 
             id='projects'
             >
