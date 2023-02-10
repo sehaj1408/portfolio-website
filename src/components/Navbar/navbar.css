@@ -3,12 +3,6 @@
     100% { opacity: 1; }
 }
 
-@media only screen and (max-width: 800px) {
-    .nav > ul > li > button {
-        font-size: 0.3vh;
-    }
-}
-
 .nav {
     position: fixed;
     top: 0px;
@@ -16,6 +10,7 @@
     right: 0;
     background-color: rgb(38, 38, 38);
     display: flex;
+    flex-wrap: wrap;
     justify-content: right;
     align-items: center;
     height: 7vh;
@@ -53,4 +48,10 @@
     color: #d79922;
     cursor: pointer;
     transform: translateY(-3px);
+}
+
+@media all and (max-width: 400px) {
+    .nav > ul > li > button {
+        font-size: 1vh;
+    }
 }
