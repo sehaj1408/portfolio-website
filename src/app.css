@@ -123,4 +123,26 @@
         width: 60vw;
         font-size: 4vw;
     }
+    
+    .skills-education-container {
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .skills-tools-container {
+        margin: auto;
+    }
+    
+    .skills-tools {
+        margin-bottom: 500px;
+        font-size: 4vw;
+        width: 60vw;
+    }
+    
+    .skills-container {
+        margin-top: -20%;
+        width: 80vw;
+        grid-template-columns: repeat(auto-fill,minmax(18vw, 1fr));
+    }
 }

@@ -133,4 +133,8 @@
     .details-github {
         font-size: 3.5vw;
     }
+
+    .github-image {
+        height: 3vw;
+    }
 }
