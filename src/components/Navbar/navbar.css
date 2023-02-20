@@ -50,6 +50,7 @@
     transform: translateY(-3px);
 }
 
+
 @media all and (max-width: 600px) {
     .nav > ul > li > button {
         font-size: 1vh;

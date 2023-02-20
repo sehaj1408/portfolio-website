@@ -3,6 +3,7 @@ import './navbar.css';
 import { motion } from 'framer-motion';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navbar() {
     useEffect(() => {
@@ -17,6 +18,14 @@ export default function Navbar() {
         })
     }
 
+    const [showNavbar, setShowNavbar] = React.useState(false);
+
+    function handleShowNavBar() {
+        setShowNavbar(prevState => {
+            return !prevState;
+        })
+    }
+
     return (
         <motion.nav 
         style={{ top: '-100px' }}
@@ -24,7 +33,14 @@ export default function Navbar() {
         transition={{ type: "spring", stiffness: 30 }}
         className='nav'
         >
-            <motion.ul animate={{  }}>
+            {/* {showNavbar && (
+                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <button className='nav-closeBtn'>
+                        <FaTimes />
+                    </button>
+                </div>
+            )} */}
+            <motion.ul>
                 <motion.li>
                     <button onClick={() => scrollToComponent('about')}>ABOUT</button>
                 </motion.li>
@@ -44,6 +60,10 @@ export default function Navbar() {
                     <button onClick={() => scrollToComponent('contact-container-navbar')}>CONTACT</button>
                 </motion.li>
             </motion.ul>
+            {/* <button onClick={handleShowNavBar} className='nav-openBtn'>
+                <FaBars />
+            </button> */}
+
         </motion.nav>
     )
 }

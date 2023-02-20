@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import { easeOut, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -64,8 +64,9 @@ export default function App() {
         },
     ]
 
-    const projectsElements = projectsArray.map((project) => {
+    const projectsElements = projectsArray.map((project, index) => {
         return <Project 
+            key = {index}
             details = {project}
         />
     }) 
@@ -85,8 +86,9 @@ export default function App() {
         {name: 'AWS', padding: '1.1vw', height: '5.2vh', width: '8.4vh', image: 'awsImage.png'},
     ]
 
-    const skillsElements = skillsArr.map((skill) => {
+    const skillsElements = skillsArr.map((skill, index) => {
         return <Skills 
+            key = {index}
             name = {skill.name}
             padding = {skill.padding}
             image = {skill.image}
@@ -104,8 +106,9 @@ export default function App() {
         }
     ]
 
-    const educationElements = educationArr.map((item) => {
+    const educationElements = educationArr.map((item, index) => {
         return <Education 
+            key = {index}
             westernImage = {item.westernImage}
             degree = {item.degree}
             wdsImage = {item.wdsImage}
@@ -133,7 +136,6 @@ export default function App() {
                     <div className='skills-container-navbar' id='skills-container-navbar'></div>
                     <h2 
                     data-aos='fade-down' 
-                    style={{ marginBottom: '130px' }}
                     className='skills-tools' 
                     id='skills-tools'>
                         Tools and Technologies
@@ -164,9 +166,8 @@ export default function App() {
                 />
             </div>
             <footer className='footer'>
-                <p className='copyright-title'>Copyright</p>
-                <img src={require('./images/copyrightImage.png')} alt="image" className='copyright-image'/>
-                <p className='copyright-name'>2023 Sehaj Naangal</p>
+                <p className='copyright-details'>Created by</p>
+                <p className='copyright-title'>SEHAJ NAANGAL</p>
             </footer>
         </div>
     )
