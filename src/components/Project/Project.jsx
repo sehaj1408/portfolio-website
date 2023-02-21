@@ -53,6 +53,22 @@ export default function Projects(props) {
                         </>
                         )}
                         </a>
+
+                        <a 
+                        href={props.details.view}
+                        target='_blank'
+                        className='details-view'
+                        >
+                            {props.details.view && (
+                        <>
+                            View
+                            <img 
+                            src={require("../../images/viewImage.png")} alt="view image"
+                            className='github-image' 
+                            />
+                        </>
+                        )}
+                        </a>
                     </div>
                 </div>
             </div>
