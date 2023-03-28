@@ -8,7 +8,7 @@
 }
 
 .projects-image {
-    width: 60vh;
+    width: 500px;
 }
 
 .projects {
@@ -23,7 +23,7 @@
 }
 
 .projects-title {
-    font-size: 2vh;
+    font-size: 18px;
     font-weight: 700;
     padding-right: 30px;
     margin-top: 0px;
@@ -54,14 +54,14 @@
     background-color: white;
     color: rgba(0, 0, 0, 0.733);
     padding: 0px 30px;
-    font-size: 1.7vh;
+    font-size: 14px;
 }
 
 .details-skills {
     max-width: 90%;
     padding-right: 30px;
     text-align: right;
-    font-size: 1.6vh;
+    font-size: 13px;
     font-weight: 600;
     line-height: 200%;
     color: rgba(0, 0, 0, 0.797);
@@ -71,7 +71,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    font-size: 1.6vh;
+    font-size: 13px;
     font-weight: 600;
     text-decoration: none;
     color: #4057a1;
