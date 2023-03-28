@@ -12,7 +12,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    height: 7vh;
+    height: 70px;
     transition: all 0s ease-in-out;
     z-index: 1;
 }
@@ -26,14 +26,14 @@
 }
 
 .nav > ul > li {
-    padding: 0px 1vw;
+    padding: 0px 8px;
     transform: scale(0.94);
     animation: fadeIn 1.3s;
     align-items: center;
 }
 
 .nav > ul > li > button {
-    font-size: 1.5vh;
+    font-size: 15px;
     font-weight: 500;
     border: none;
     background-color: transparent;

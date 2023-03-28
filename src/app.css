@@ -13,10 +13,12 @@
     margin: auto;
     margin-bottom: 10vh;
     border-radius: 10px;
-    background-color: white;
-    width: 35vw;
+    background-color: rgba(255, 255, 255, 0.804);
+    width: 30vw;
     height: 7vh;
-    color: rgba(0, 0, 0, 0.807);
+    color: rgba(0, 0, 0, 0.749);
+    font-size: 2.4vh;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .skills-container-navbar {
@@ -32,7 +34,8 @@
     background-color: white;
     width: 25vw;
     height: 7vh;
-    color: rgba(0, 0, 0, 0.807);
+    color: rgba(0, 0, 0, 0.766);
+    font-size: 2.4vh;
 }
 
 .skills-tools-container {
@@ -64,11 +67,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35vw;
+    width: 25vw;
     border-radius: 10px;
     background-color: white;
     height: 7vh;
-    color: rgba(0, 0, 0, 0.807);
+    color: rgba(0, 0, 0, 0.751);
+    font-size: 2.4vh;
 }
 
 .education-container {

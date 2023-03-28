@@ -3,7 +3,12 @@
     margin: auto;
     max-width: 75vw;
     align-items: center;
-    padding: 0px 0px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.projects-image {
+    width: 60vh;
 }
 
 .projects {
@@ -14,10 +19,11 @@
     align-items: flex-end;
     color: rgba(0, 0, 0, 0.778);
     height: 100%;
+    width: 40%;
 }
 
 .projects-title {
-    font-size: 1.5vw;
+    font-size: 2vh;
     font-weight: 700;
     padding-right: 30px;
     margin-top: 0px;
@@ -48,22 +54,24 @@
     background-color: white;
     color: rgba(0, 0, 0, 0.733);
     padding: 0px 30px;
-    font-size: 1.1vw;
+    font-size: 1.7vh;
 }
 
 .details-skills {
+    max-width: 90%;
     padding-right: 30px;
     text-align: right;
-    font-size: 1vw;
+    font-size: 1.6vh;
     font-weight: 600;
     line-height: 200%;
+    color: rgba(0, 0, 0, 0.797);
 }
 
 .details-github {
     display: flex;
     align-items: center;
     justify-content: right;
-    font-size: 1.1vw;
+    font-size: 1.6vh;
     font-weight: 600;
     text-decoration: none;
     color: #4057a1;
@@ -85,10 +93,6 @@
     display: flex;
     justify-content: right;
     padding-right: 30px;
-}
-
-.projects-image {
-    width: 40vw;
 }
 
 @media all and (max-width: 800px) {

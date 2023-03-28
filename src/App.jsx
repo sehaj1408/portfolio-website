@@ -119,18 +119,23 @@ export default function App() {
     return (
         <div className='app-container'>
             <Navbar />
+
             <About />
+
             <div className='projects-container-navbar' id='projects-container-navbar'></div>
+
             <motion.h2 
-            className='projectsAndExperiences' 
-            id='projectsAndExperiences'
-            style={{marginBottom: '100px'}}
-            data-aos='fade-down'
-            data-aos-anchor-placement='bottom-bottom'
+                className='projectsAndExperiences' 
+                id='projectsAndExperiences'
+                style={{marginBottom: '5%'}}
+                data-aos='fade-down'
+                data-aos-anchor-placement='bottom-bottom'
             >
                 Projects I've worked on
             </motion.h2>
+
             {projectsElements}
+            
             <div className='skills-education-container'>
                 <div className='skills-tools-container'>
                     <div className='skills-container-navbar' id='skills-container-navbar'></div>
