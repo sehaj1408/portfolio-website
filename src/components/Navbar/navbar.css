@@ -26,7 +26,7 @@
 }
 
 .nav > ul > li {
-    padding: 0px 8px;
+    padding: 0px 12px;
     transform: scale(0.94);
     animation: fadeIn 1.3s;
     align-items: center;

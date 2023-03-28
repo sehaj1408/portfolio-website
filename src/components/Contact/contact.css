@@ -37,11 +37,11 @@
 }
 
 .linkedin-title-image {
-    width: 10vw;
+    width: 125px;
 }
 
 .github-title-image {
-    width: 13vw;
+    width: 170px;
 }
 
 @media all and (max-width: 600px) {

@@ -72,18 +72,18 @@ export default function App() {
     }) 
 
     const skillsArr = [
-        {name: 'Javascript', padding: '0px', height: '7.2vh', width: '12vh', image: 'javascriptImage.png'},
-        {name: 'HTML', padding: '0.02vw', height: '7.2vh', width: '7.6vh', image: 'htmlImage.png'},
-        {name: 'CSS', padding: '0.05vw', height: '7.2vh', width: '5.5vh', image: 'cssImage.png'},
-        {name: 'Swift', padding: '0.45vw', height: '6.6vh', width: '6.6vh', image: 'swiftImage.png'},
-        {name: 'SQL', padding: '0.3vw', height: '5vh', width: '11vh', image: 'sqlImage.png'},
-        {name: 'Java', padding: '0.12vw', height: '5.3vh', width: '4.2vh', image: 'javaImage.png'},
-        {name: 'React', padding: '0.55vw', height: '4.9vh', width: '6vh', image: 'reactImage.png'},
-        {name: 'Github', padding: '0.37vw', height: '5.5vh', width: '5.5vh', image: 'githubImage.png'},
-        {name: 'Node.js', padding: '0.8vw', height: '5vh', width: '8.5vh', image: 'nodejsImage.png'},
-        {name: 'Express', padding: '1.24vw', height: '4.5vh', width: '14vh', image: 'expressImage.png'},
-        {name: 'REST API', padding: '0.7vw', height: '5.5vh', width: '6.5vh', image: 'restapiImage.png'},
-        {name: 'AWS', padding: '1.1vw', height: '5.2vh', width: '8.4vh', image: 'awsImage.png'},
+        {name: 'Javascript', padding: '0px', height: '70px', width: '120px', image: 'javascriptImage.png'},
+        {name: 'HTML', padding: '0.02vw', height: '70px', width: '73px', image: 'htmlImage.png'},
+        {name: 'CSS', padding: '0.05vw', height: '70px', width: '53px', image: 'cssImage.png'},
+        {name: 'Swift', padding: '0.45vw', height: '55px', width: '55px', image: 'swiftImage.png'},
+        {name: 'SQL', padding: '0.3vw', height: '40px', width: '85px', image: 'sqlImage.png'},
+        {name: 'Java', padding: '0.12vw', height: '50px', width: '40px', image: 'javaImage.png'},
+        {name: 'React', padding: '0.55vw', height: '40px', width: '50px', image: 'reactImage.png'},
+        {name: 'Github', padding: '0.37vw', height: '45px', width: '45px', image: 'githubImage.png'},
+        {name: 'Node.js', padding: '0.8vw', height: '40px', width: '65px', image: 'nodejsImage.png'},
+        {name: 'Express', padding: '1.24vw', height: '35px', width: '100px', image: 'expressImage.png'},
+        {name: 'REST API', padding: '0.7vw', height: '40px', width: '50px', image: 'restapiImage.png'},
+        {name: 'AWS', padding: '1.1vw', height: '40px', width: '60px', image: 'awsImage.png'},
     ]
 
     const skillsElements = skillsArr.map((skill, index) => {
@@ -127,7 +127,6 @@ export default function App() {
             <motion.h2 
                 className='projectsAndExperiences' 
                 id='projectsAndExperiences'
-                style={{marginBottom: '5%'}}
                 data-aos='fade-down'
                 data-aos-anchor-placement='bottom-bottom'
             >
@@ -146,9 +145,9 @@ export default function App() {
                         Tools and Technologies
                     </h2>
                     <div 
-                    style={{ marginBottom: '100px' }}
-                    className='skills-container' 
-                    id='skills-container'
+                        style={{ marginBottom: '100px' }}
+                        className='skills-container' 
+                        id='skills-container'
                     >
                         {skillsElements} 
                     </div>

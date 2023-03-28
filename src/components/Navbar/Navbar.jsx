@@ -28,10 +28,10 @@ export default function Navbar() {
 
     return (
         <motion.nav 
-        style={{ top: '-100px' }}
-        animate={{ y: 100 }}
-        transition={{ type: "spring", stiffness: 30 }}
-        className='nav'
+            style={{ top: '-100px' }}
+            animate={{ y: 100 }}
+            transition={{ type: "spring", stiffness: 30 }}
+            className='nav'
         >
             {/* {showNavbar && (
                 <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
