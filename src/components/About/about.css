@@ -15,11 +15,11 @@
   height: 100vh;
   text-align: left;
   margin-right: 140px;
+  width: 50vw;
 }
 
 .about-name {
   color: rgba(0, 0, 0, 0.759);
-  width: 90vw;
   font-size: 60px;
   line-height: 10%;
   padding-top: 40px;

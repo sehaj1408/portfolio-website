@@ -3,9 +3,10 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './app.css'
-import Navbar from './components/Navbar/Navbar';
+import MyNavbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Project from './components/Project/Project';
 import Skills from './components/Skills/Skills';
@@ -118,7 +119,7 @@ export default function App() {
 
     return (
         <div className='app-container'>
-            <Navbar />
+            <MyNavbar />
 
             <About />
 
