@@ -133,7 +133,7 @@
 @media all and (max-width: 800px) {
     .projectsAndExperiences {
         width: 60vw;
-        font-size: 4vw;
+        font-size: 17px;
     }
     
     .skills-education-container {
@@ -147,27 +147,30 @@
     }
     
     .skills-tools {
-        margin-bottom: 500px;
-        font-size: 4vw;
+        margin-top: -30px;
+        font-size: 17px;
         width: 60vw;
     }
     
     .skills-container {
-        margin-top: -20%;
         width: 80vw;
         grid-template-columns: repeat(auto-fill,minmax(25vw, 1fr));
     }
 
     .education-header {
+        font-size: 17px;
         width: 60vw;
     }
 
     .education-container {
-        margin: 0;
+        margin: 0 0;
+        margin-top: -70px;
     }
 
     .contact-header {
+        font-size: 17px;
         width: 60vw;
+        margin-top: -80px;
     }
 
     .contact-container {
@@ -175,10 +178,14 @@
     }
 
     .copyright-title {
-        font-size: 2.4vw;
+        font-size: 13px;
     }
 
     .copyright-details {
-        font-size: 2.2vw;
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-bottom: 80px;
     }
 }

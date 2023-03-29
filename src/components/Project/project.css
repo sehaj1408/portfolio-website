@@ -58,7 +58,7 @@
 }
 
 .details-skills {
-    max-width: 90%;
+    max-width: 90vw;
     padding-right: 30px;
     text-align: right;
     font-size: 15px;
@@ -114,7 +114,8 @@
     }
 
     .projects-title {
-        font-size: 5vw;
+        font-size: 19px;
+        width: 80vw;
         text-align: center;
         padding: 0;
     }
@@ -124,15 +125,16 @@
     }
 
     .details-description {
-        font-size: 3.5vw;
+        font-size: 13px;
         text-align: center;
         width: 80vw;
     }
 
     .details-skills {
-        font-size: 3.5vw;
+        font-size: 13px;
         text-align: center;
         padding: 0;
+        width: 80vw;
     }
     
     .github-link {
@@ -143,11 +145,11 @@
     }
 
     .details-github {
-        font-size: 3.5vw;
+        font-size: 14px;
     }
 
     .details-view {
-        font-size: 3.5vw;
+        font-size: 14px;
     }
 
     .github-image {

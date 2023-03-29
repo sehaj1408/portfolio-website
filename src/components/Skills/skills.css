@@ -29,10 +29,10 @@
 
 @media all and (max-width: 800px) {
     .skills-imageAndName {
-        height: 25vw;
+        height: 100px;
     }
 
     .skills-name {
-        font-size: 3vw;
+        font-size: 12px;
     }
 }
