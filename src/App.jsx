@@ -72,17 +72,17 @@ export default function App() {
     }) 
 
     const skillsArr = [
-        {name: 'Javascript', padding: '0px', height: '70px', width: '120px', image: 'javascriptImage.png'},
-        {name: 'HTML', padding: '0px', height: '70px', width: '73px', image: 'htmlImage.png'},
-        {name: 'CSS', padding: '0px', height: '70px', width: '53px', image: 'cssImage.png'},
-        {name: 'Swift', padding: '6px', height: '55px', width: '55px', image: 'swiftImage.png'},
+        {name: 'Javascript', padding: '2px', height: '60px', width: '105px', image: 'javascriptImage.png'},
+        {name: 'HTML', padding: '2px', height: '60px', width: '63px', image: 'htmlImage.png'},
+        {name: 'CSS', padding: '2px', height: '60px', width: '43px', image: 'cssImage.png'},
+        {name: 'Swift', padding: '6px', height: '50px', width: '50px', image: 'swiftImage.png'},
         {name: 'SQL', padding: '7px', height: '40px', width: '85px', image: 'sqlImage.png'},
         {name: 'Java', padding: '3px', height: '50px', width: '40px', image: 'javaImage.png'},
         {name: 'React', padding: '8px', height: '40px', width: '50px', image: 'reactImage.png'},
         {name: 'Github', padding: '5px', height: '45px', width: '45px', image: 'githubImage.png'},
         {name: 'Node.js', padding: '9px', height: '40px', width: '65px', image: 'nodejsImage.png'},
-        {name: 'Express', padding: '12px', height: '35px', width: '100px', image: 'expressImage.png'},
-        {name: 'REST API', padding: '10px', height: '40px', width: '50px', image: 'restapiImage.png'},
+        {name: 'Express', padding: '12px', height: '35px', width: '110px', image: 'expressImage.png'},
+        {name: 'REST', padding: '8px', height: '45px', width: '55px', image: 'restapiImage.png'},
         {name: 'AWS', padding: '10px', height: '40px', width: '60px', image: 'awsImage.png'},
     ]
 
