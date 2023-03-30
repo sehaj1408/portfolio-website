@@ -21,6 +21,7 @@
 .about-name {
   color: rgba(0, 0, 0, 0.759);
   font-size: 60px;
+  font-weight: 700;
   line-height: 10%;
   padding-top: 40px;
 }
@@ -29,7 +30,6 @@
   color: rgba(0, 0, 0, 0.700);
   font-size: 30px;
   font-weight: 600;
-  margin-top: -25px;
 }
 
 .about-p1 {
@@ -38,7 +38,7 @@
   line-height: 220%;
   font-size: 18px;
   width: 38vw;
-  margin-top: -5px;
+  margin-top: 5px;
 }
 
 .about-projects {
@@ -70,10 +70,12 @@
 @media all and (max-width: 800px) {
   .about-container {
     flex-direction: column;
+    width: 85vw;
   }
 
   .about {
     margin: -10px 0px;
+    width: 100%;
   }
 
   .about-name {
@@ -86,12 +88,13 @@
 
   .about-p1 {
     font-size: 15px;
-    width: 80vw;
+    width: 100%;
   }
 
   .about-myPhoto {
+    position: relative;
+    top: -30vh;
+    left: 15vw;
     height: 180px;
-    margin-top: -90%;
-    margin-left: 30vw;
   }
 }
