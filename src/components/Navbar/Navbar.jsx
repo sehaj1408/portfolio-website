@@ -16,7 +16,7 @@ export default function MyNavbar() {
     return (
         <Navbar expand="lg" className='nav'>
             <Container className='nav-container'>
-                <button onClick={() => scrollToComponent('about')} className='nav-brand'>Sehaj Naangal</button>
+                <button onClick={() => scrollToComponent('about')} className='nav-brand'><img src={require('../../images/s-logo.png')} alt="" className='nav-image-logo'/> Sehaj</button>
                 <Navbar.Toggle aria-controls="navbarSupportedContent" className='nav-hamburger-icon'/>
                 <Navbar.Collapse id="basic-navbar-nav" className='nav-hamburger-menu'>
                     <Nav className='nav-buttons'>

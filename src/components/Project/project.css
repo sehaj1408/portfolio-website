@@ -119,6 +119,7 @@
         width: 80vw;
         text-align: center;
         padding: 0;
+        margin-bottom: 15px;
     }
 
     .projects-title::after {

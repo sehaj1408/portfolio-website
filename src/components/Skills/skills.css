@@ -28,6 +28,10 @@
 }
 
 @media all and (max-width: 800px) {
+    .skills {
+        margin-bottom: -10px;
+    }
+
     .skills-imageAndName {
         height: 100px;
     }
