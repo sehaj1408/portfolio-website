@@ -33,9 +33,26 @@ export default function Projects(props) {
                 <h3 className='projects-title'>{props.details.name}</h3>
                 <div className='project-details'>
                     <h3 data-aos='flip-up' className='details-description'>{props.details.description}</h3>
-                    <p data-aos='fade-left' className='details-skills'>{skillsArr.join("\u00a0 | \u00a0")}</p>
+                    <p className='details-skills'>{skillsArr.join("\u00a0 | \u00a0")}</p>
 
-                    <div data-aos='fade-left' className='github-link'>
+                    <div className='github-link'>
+                        <a
+                            href={props.details.view}
+                            target='_blank'
+                            className='details-github'
+                            style={{ marginRight: '25px' }}
+                        >
+                            {props.details.view && (
+                                <>
+                                    View
+                                    <img
+                                        src={require("../../images/viewImage.png")} alt="view image"
+                                        className='github-image'
+                                    />
+                                </>
+                            )}
+                        </a>
+
                         <a
                             href={props.details.github}
                             target='_blank'
@@ -51,22 +68,15 @@ export default function Projects(props) {
                                 </>
                             )}
                         </a>
+                    </div>
 
-                        <a
-                            href={props.details.view}
-                            target='_blank'
-                            className='details-view'
-                        >
-                            {props.details.view && (
-                                <>
-                                    View
-                                    <img
-                                        src={require("../../images/viewImage.png")} alt="view image"
-                                        className='github-image'
-                                    />
-                                </>
-                            )}
-                        </a>
+                    <div className='projects-other-info'>
+                        {props.details.username && (
+                            <>
+                                <p>Username: {props.details.username}</p>
+                                <p>Password: {props.details.password}</p>
+                            </>
+                        )}
                     </div>
                 </div>
             </div>

@@ -37,12 +37,15 @@ export default function App() {
             id: 2
         },
         {
-            name: 'Pokédex Web App',
-            description: `A web application that enables users to search for Pokémon by name or number, displaying relevant results and their details.`,
-            skills: ['Javascript', 'HTML', 'CSS', 'DOM', 'Git', 'VS Code', 'AWS'],
-            github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
-            image: 'pokedexImage.png',
-            width: '45vw',
+            name: 'Course Outlines Manager Web App',
+            description: `A web application designed to streamline the process of creating and managing course outlines with functionality for profesors, department chair, and other administrative staff.`,
+            skills: ['Javascript', 'Node.js', 'Express', 'CSS', 'REST API', 'Google Cloud', 'Git', 'Firebase'],
+            github: 'https://github.com/ShaimaaAliECE/se3350_groupproject-se3350-team-16',
+            view: 'http://34.130.235.42:4000/index.html',
+            image: 'courseOutlineImage.png',
+            username: 'sehaj',
+            password: 'sehaj',
+            width: '40vw',
             id: 3
         },
         {
@@ -50,9 +53,19 @@ export default function App() {
             description: `A personal React project that provides a user-friendly, responsive interface for clicking and rolling dice until all numbers match.`,
             skills: ['React', 'Javascript', 'CSS', 'HTML', 'Git'],
             github: 'https://github.com/sehaj1408/tenzies-react',
+            view: 'https://tenzies-react-sehaj.vercel.app/',
             image: 'tenziesImage.png',
             width: '30vw',
             id: 4
+        },
+        {
+            name: 'Pokédex Web App',
+            description: `A web application that enables users to search for Pokémon by name or number, displaying relevant results and their details.`,
+            skills: ['Javascript', 'HTML', 'CSS', 'DOM', 'Git', 'VS Code', 'AWS'],
+            github: 'https://github.com/sehaj1408/se3316-lab1-snaangal',
+            image: 'pokedexImage.png',
+            width: '45vw',
+            id: 5
         },
         {
             name: 'Manufacturing Database Project',
@@ -61,7 +74,7 @@ export default function App() {
             github: 'https://github.com/AlexandraLHeureuxECE/assignment-3-group-22',
             image: 'manufacturingImage.png',
             width: '35vw',
-            id: 5
+            id: 6
         },
     ]
 

@@ -66,6 +66,7 @@
     font-weight: 600;
     line-height: 200%;
     color: rgba(0, 0, 0, 0.797);
+    margin-left: 20px;
 }
 
 .details-github {
@@ -85,6 +86,10 @@
     color: #d79822a6;
 }
 
+.details-view {
+
+}
+
 .github-image {
     padding-left: 5px;
     height: 1vw;
@@ -94,6 +99,21 @@
     display: flex;
     justify-content: right;
     padding-right: 30px;
+}
+
+.projects-other-info {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.674);
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.projects-other-info p {
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
 
 @media all and (max-width: 800px) {
@@ -156,5 +176,16 @@
 
     .github-image {
         height: 3vw;
+    }
+
+    .projects-other-info {
+        flex-direction: row;
+        font-size: 13px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.674);
+        margin-top: 15px;
+        width: 80vw;
+        align-items: center;
+        justify-content: center;
     }
 }
