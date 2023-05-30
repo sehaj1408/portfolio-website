@@ -41,10 +41,7 @@ export default function App() {
             description: `A web application designed to streamline the process of creating and managing course outlines with functionality for profesors, department chair, and other administrative staff.`,
             skills: ['Javascript', 'Node.js', 'Express', 'CSS', 'REST API', 'Google Cloud', 'Git', 'Firebase'],
             github: 'https://github.com/ShaimaaAliECE/se3350_groupproject-se3350-team-16',
-            view: 'http://34.130.235.42:4000/index.html',
             image: 'courseOutlineImage.png',
-            username: 'sehaj',
-            password: 'sehaj',
             width: '40vw',
             id: 3
         },
