@@ -41,7 +41,7 @@ export default function Navbar() {
                     transition={{ duration: 0.5, delay: 0.7 }}
                     className='about-p1'
                 >
-                    I'm a third-year Software Engineering student
+                    I'm a fourth-year Software Engineering student
                     at Western University interested in areas of software engineering
                     like web development, iOS development, databases, cloud computing,
                     and building high-quality applications using different programming
@@ -60,14 +60,14 @@ export default function Navbar() {
                     <img
                         src={require("../../images/downArrow.png")}
                         alt="downArrow"
-                        style={{ height: '18px', width: '18px'}}
+                        style={{ height: '18px', width: '18px' }}
                     />
                 </motion.button>
             </motion.div>
 
-            <motion.img 
-                src={require("../../images/myPhoto2.png")} 
-                alt="myPhoto" 
+            <motion.img
+                src={require("../../images/myPhoto2.png")}
+                alt="myPhoto"
                 className='about-myPhoto'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 0.8 }}
