@@ -24,7 +24,7 @@ export default function MyNavbar() {
                         <button onClick={() => scrollToComponent('projects-container-navbar')}>PROJECTS</button>
                         <button onClick={() => scrollToComponent('skills-container-navbar')}>TECHNOLOGIES</button>
                         <button onClick={() => scrollToComponent('education-container-navbar')}>EDUCATION</button>
-                        <button onClick={() => window.open('https://drive.google.com/file/d/1zc82GDtKw-6w2-fLYeU0FF52gVg-VVjC/view?usp=share_link', '_blank')}>RESUME</button>
+                        <button onClick={() => window.open('https://drive.google.com/file/d/1Z73ckTnZNq2lSnOQg7KTm_2sPk7-m2Cs/view?usp=sharing', '_blank')}>RESUME</button>
                         <button onClick={() => scrollToComponent('contact-container-navbar')}>CONTACT</button>
                     </Nav>
                 </Navbar.Collapse>
